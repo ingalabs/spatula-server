@@ -1,0 +1,29 @@
+{
+    "name": "ingalabs/spatula-server",
+    "type": "project",
+    "license": "MIT",
+    "homepage": "https://spatula.ingalabs.hu",
+    "description": "Server for Spatula",
+    "keywords": ["orm"],
+    "authors": [
+        {
+            "name": "Antal Áron",
+            "email": "antalaron@antalaron.hu",
+            "homepage": "https://antalaron.hu"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
